@@ -52,8 +52,7 @@ BEGIN
     "\r\n"
     "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
     "LANGUAGE 4, 2\r\n"
-    "#include ""res\\LineDrawing.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
-    "#include ""l.CHS\\afxres.rc""      // 标准组件\r\n"
+    "#include ""res\\LineDrawing.rc2""\r\n"
     "#endif\r\n"
     "\0"
 END
@@ -221,8 +220,7 @@ END
 
 #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
 LANGUAGE 4, 2
-#include "res\LineDrawing.rc2"  // 非 Microsoft Visual C++ 编辑的资源
-#include "l.CHS\afxres.rc"      // 标准组件
+#include "res\LineDrawing.rc2"
 #endif
 
 /////////////////////////////////////////////////////////////////////////////
